@@ -21,13 +21,13 @@ public class Examen11 {
         int anio = new Scanner(System.in).nextInt();
         
         if(anio % 400 == 0){
-        System.out.println("Es bisiestro");
+        System.out.println("Es bisiesto");
         }else{
         
         if ((anio % 4 == 0) && (anio % 100 != 0)){
-        System.out.println("Es bisiestro");
+        System.out.println("Es bisiesto");
         }else{
-        System.out.println("No es bisiestro");
+        System.out.println("No es bisiesto");
         }
         
         }
